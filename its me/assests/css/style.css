@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+    background-color: orange;
+    
+}
+
+.div1{
+    background-color: skyblue;
+    height: 100px;
+    width: 200px;
+    border-radius: 50;
+    position: absolute;
+    text-align: center;
+    
+
+    animation-name: its_me;
+    animation-duration:10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes its_me{
+    0%{
+        left: 50px;
+        top: 0;
+        background-color: navajowhite;
+        color: brown;
+
+    }
+    5%{
+        left: 50px;
+        top: 30px;
+        color: blue;
+        background-color: white;
+
+    }
+    10%{
+        left: 100px;
+        top: 30px;
+        color: aqua;background-color: gainsboro;
+
+    }
+    15%{
+      left: 100px;
+      top: 60px;
+      color: red;background-color: greenyellow;
+    }
+    20%{
+        left: 150px;
+        top: 60px;
+        color: brown;
+    }
+    25%{
+        left: 150px;
+        top: 90px;
+        color: white;
+
+    }
+    30%{
+        left: 200px;
+        top: 90px;
+        color: black;
+    }
+    35%{
+        left: 200px;
+        top: 120px;
+        color: blue;
+    }
+    40%{
+        left: 250px;
+        top: 120px;
+        color: orange;
+    }
+    45%{
+        left: 250px;
+        top: 150px;
+        color: greenyellow;
+    }
+    50%{
+        left: 300px;
+        top: 150px;
+        color: yellow;
+    }
+    55%{
+        left: 300px;
+        top: 180px;
+        color: pink;
+    }
+    60%{
+        left: 350px;
+        top: 180px;
+        color: white;
+    }
+}
